@@ -61,7 +61,7 @@ class Post(models.Model):
     author = models.ForeignKey(User)
 
     def get_absolute_url(self):
-        return reverse('detail', kwargs={'pk': self.pk})
+        return reverse('blog:detail', kwargs={'pk': self.pk})
 
     def __str__(self):
         return self.title
