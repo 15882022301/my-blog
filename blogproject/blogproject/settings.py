@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
+    'comments',
 ]
 
 MIDDLEWARE = [
@@ -77,9 +78,9 @@ WSGI_APPLICATION = 'blogproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Django',
+        'NAME': 'Django_1',
         'USER': 'root',
-        'PASSWORD': '199618',
+        'PASSWORD': '123456',
         'HOST': 'LOCALHOST',
         'POST': '3306',
     }
